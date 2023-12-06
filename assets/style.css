@@ -22,15 +22,13 @@ form {
   font-weight: bold;
 }
 
-button:hover {
+#btn-primary:hover {
   opacity: 1;
-  /* background-color: blue; */
 }
 .btn-secondary {
   background-color: red;
-  /* margin-left: 600px; */
-  /* display: inline; */
 }
+
 .completion-line {
   position: absolute;
   top: 50%;
@@ -41,6 +39,7 @@ button:hover {
   display: none;
   z-index: 1;
 }
+
 .task {
   position: relative;
   cursor: pointer;
@@ -48,14 +47,14 @@ button:hover {
   margin: 4px;
   z-index: 0;
 }
+
 .completed {
   text-decoration: line-through;
 }
+
 #task-container {
   margin-left: 15rem;
   margin-right: 15rem;
-  /* max-width: ; */
-  /* text-align: center; */
 }
 
 ul {
@@ -63,9 +62,11 @@ ul {
   margin-right: auto;
   border: 1px solid black;
 }
+
 li {
   border: 1px solid black;
 }
+
 li div {
   display: inline;
   margin-left: 1rem;
