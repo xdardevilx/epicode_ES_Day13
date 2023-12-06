@@ -22,7 +22,7 @@ btn.addEventListener("click", function (event) {
   deleteList.classList.add("btn-secondary");
   deleteList.textContent = "Elimina";
   deleteList.addEventListener("click", function () {
-    taskContainer.removeChild(taskList);
+    unorderedList.removeChild(taskList);
   });
   taskList.appendChild(deleteList);
 
