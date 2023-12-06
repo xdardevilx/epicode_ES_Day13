@@ -1,0 +1,72 @@
+html {
+  max-width: 1200px;
+  margin: auto;
+}
+
+form {
+  display: inline;
+  margin-top: 5rem;
+  text-align: center;
+}
+#btn-primary {
+  background-color: orange;
+  /* border: 0.5px solid; */
+  border-color: orange;
+  border-radius: 45%;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 1;
+  /* background-color: blue; */
+}
+.btn-secondary {
+  background-color: red;
+  /* margin-left: 600px; */
+  /* display: inline; */
+}
+.completion-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  display: none;
+  z-index: 1;
+}
+.task {
+  position: relative;
+  cursor: pointer;
+  padding: 8px;
+  margin: 4px;
+  z-index: 0;
+}
+.completed {
+  text-decoration: line-through;
+}
+#task-container {
+  margin-left: 15rem;
+  margin-right: 15rem;
+  /* max-width: ; */
+  /* text-align: center; */
+}
+
+ul {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
+li {
+  border: 1px solid black;
+}
+li div {
+  display: inline;
+  margin-left: 1rem;
+}
